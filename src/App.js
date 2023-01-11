@@ -4,6 +4,7 @@ import React from "react";
 import ReactEcharts from "echarts-for-react";
 
 import Echart from "./components/Echart";
+import Candle from "./components/Candle";
 
 function App() {
   // const option = {
@@ -23,7 +24,7 @@ function App() {
   // };
   // return <ReactEcharts option={option} />;
   return (
-    <div><Echart /></div>
+    <div><Echart /><Candle /></div>
   )
 }
 export default App;
